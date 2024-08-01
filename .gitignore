@@ -7,8 +7,7 @@ node_modules
 .dist/
 .out/
 .node_modules/
-.vsix
-
+*.vsix 
 
 # local env files
 .env.local

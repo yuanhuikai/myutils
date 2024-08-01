@@ -43,6 +43,8 @@ export function activate(context: vscode.ExtensionContext) {
         editor.edit(editBuilder => {
             editBuilder.replace(selection, processedText);
         });
+		// 提示
+		vscode.window.showInformationMessage('转换成功');
 	});
 
 	context.subscriptions.push(disposable);
